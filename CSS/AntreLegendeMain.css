@@ -1,0 +1,219 @@
+/*Style générique*/
+
+@font-face {
+    font-family: ShadowsIntoLight;
+    src: url("../fonts/shadows_into_light/ShadowsIntoLight.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body{
+    margin:0;
+    padding: 0;
+}
+
+body>header>div>div>div>div, body>section>div>div>div{
+    margin-top: 10px;
+}
+
+.general_title{
+    font-family: ShadowsIntoLight,Verdana,SansSerif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.general_subtitle{
+    font-family: ShadowsIntoLight,Verdana,SansSerif;
+    font-size: 25px;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.general_title_box{
+    border: 1px black solid;
+    background-color: white;
+}
+
+.general_text{
+    margin-top: 30px;
+    font-family: ShadowsIntoLight,Verdana,SansSerif;
+    font-size: 25px;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.general_button {
+    font-family: ShadowsIntoLight, Verdana, SansSerif;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    width: 85%;
+    margin: auto;
+    border: 1px black solid;
+    border-radius: 15px;
+}
+
+.general_text_button{
+    position:relative;
+    bottom: 60%;
+}
+
+.general_arrow_button{
+    position:relative;
+    bottom: 22%;
+}
+
+.general_barre_separation{
+    position:relative;
+    width:60%;
+    margin-left: 20%;
+}
+
+.general_image{
+    border-radius: 20px;
+}
+
+/*Style de définition des pages*/
+
+.page_pair{
+    position: relative;
+    background-color: #E5E1B1;
+    min-height: 100vh;
+}
+
+.page_impair{
+    position:relative;
+    background-color: #A9BCD0;
+    min-height: 100vh;
+}
+
+.page_footer{
+    position: relative;
+    background-color: #E5E1B1;
+    min-height: 33vh;
+}
+
+/*Style de la page d'accueil*/
+.start_background{
+    position:relative;
+    background: url("../Ressources/banniere_small.png") no-repeat;
+    background-size: cover;
+    height: 77vh;
+    margin-top: 0;
+}
+
+.start_title_main{
+    font-family: ShadowsIntoLight,Verdana,SansSerif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(213,234,199,0.5);
+
+}
+
+.start_title_main_position{
+    position: absolute;
+    bottom: 15%;
+    left: 0;
+    right: 0;
+}
+
+.start-button{
+    font-family: ShadowsIntoLight,Verdana,SansSerif;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    width: 85%;
+    margin: auto;
+    border: 1px black solid;
+}
+
+/*Style footer*/
+.footer_logo{
+    height:10%;
+    width:10%;
+    margin-left: 45%;
+    margin-top: 5%;
+}
+
+.footer_button {
+    font-family: ShadowsIntoLight, Verdana, SansSerif;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px black solid;
+    border-radius: 15px;
+}
+
+.footer_text_button{
+    font-size: 0.6em;
+}
+
+.footer_social_button{
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    border: 1px black solid;
+    border-radius: 15px;
+}
+
+.footer_signature{
+    font-family: ShadowsIntoLight, Verdana, SansSerif;
+    font-size: 10px;
+    text-align: right;
+    padding-right: 5%;
+}
+
+/*Hamburger menu*/
+
+.burger_menu_icon{
+    height:60px;
+    line-height:60px;
+}
+
+.burger_menu_text{
+    font-family: ShadowsIntoLight,Verdana,SansSerif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.hamburger{
+    background:none;
+    position:absolute;
+    top:0;
+    line-height:45px;
+    padding:5px 15px 0px 15px;
+    color:#999;
+    border:0;
+    font-size:1.4em;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+    z-index:10000000000000;
+}
+.cross{
+    background:none;
+    position:absolute;
+    top:0px;
+    padding:7px 15px 0px 15px;
+    color:#999;
+    border:0;
+    font-size:3em;
+    line-height:65px;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+    z-index:10000000000000;
+}
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1; opacity: 0.9; position:absolute; text-align:center; font-size:12px;padding-top: 10%;}
+.menu ul {margin: 0; padding: 0;
+    list-style: none none;
+}
+.menu li {display: block; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu li:hover{display: block; background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
+.menu ul li a:hover {color: #666; text-decoration:none;}
+.menu a{text-decoration:none; color:#666;}
+.menu a:hover{text-decoration:none; color:#666;}
