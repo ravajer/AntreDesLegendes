@@ -1,0 +1,1 @@
+v 0.1 : Squelette du site de base, uniquement pour périphériques mobiles.
